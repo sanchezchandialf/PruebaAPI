@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    margin-left: 20px;
+    list-style:none;
+    width: 100px;
+    text-align: center;
+
+}
+.items:hover {
+    margin-left: 20px;
+    list-style:none;
+    width: 100px;
+    height: 40px;
+    background-color: #777;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.a-navbar {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+
+
+/* 
+------------------------- */
+
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    text-align: center;
+}
+
+.maincontainer  p {
+    margin-top: 100px;
+}
+
+.maincontainer img{
+    margin-top: 100px;
+    width: 400px;
+    
+}
+
+.maincontainer img:hover {
+    transform: scale(1.1);
+    transition: all .4s;
+}
+ /* --------------------------------------------- */
+
+.maincontact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+.maincontact p {
+    margin-top: 100px;
+}
+.maincontact img {
+    margin-top: 100px;
+    width: 400px;
+}
+
+/* ------------------------ */
+
+.aboutcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+.aboutcontainer p {
+    margin-top: 100px;
+}
+.aboutcontainer img {
+    margin-top: 100px;
+    width: 400px;
+}
+
+/* ------------------------ */
+
+.servicescontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+}
+.servicescontainer p {
+    margin-top: 100px;
+}
+.servicescontainer img {
+    margin-top: 100px;
+    width: 700px;
+}
+/* ------------------------------------------ */
+
+
+.usercontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.usercontainer p {
+    margin-top: 40px;
+}
+.usercontainer img {
+    margin-top: 100px;
+    width: 100px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
